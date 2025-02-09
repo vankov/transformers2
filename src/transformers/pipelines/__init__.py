@@ -140,6 +140,8 @@ if is_torch_available():
         AutoModelForZeroShotObjectDetection,
     )
 
+class Conversation:
+    pass
 
 if TYPE_CHECKING:
     from ..modeling_tf_utils import TFPreTrainedModel
